@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping(value="/temperature")
@@ -39,10 +40,10 @@ public class TemperatureController {
     }
 
     @GetMapping("/search/average/{municipality_id}")
-    public ResponseEntity<Temperature> getAverage(@PathVariable int municipality_id) {
+    public ResponseEntity<Optional<Double>> getAverage(@PathVariable int municipality_id) {
         try {
-            Temperature temperature = temperatureService.getTemperatureByMunicipality(municipality_id);
-            return new ResponseEntity<>(temperature, HttpStatus.OK);
+            Optional<Double> average = temperatureService.getAverageTemperatureByMonth(municipality_id);
+            return new ResponseEntity<>(average, HttpStatus.OK);
         } catch (MunicipalityNotFoundException e) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }

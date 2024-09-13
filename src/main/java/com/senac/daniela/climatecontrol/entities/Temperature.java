@@ -10,14 +10,14 @@ public class Temperature {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "temperature_id", nullable = false)
+    @Column(name = "temperature_id", nullable = false, unique = true)
     private Long id;
 
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "municipality_id", referencedColumnName = "municipality_id")
     private Municipality municipality;
 
-    @Column(name = "temperature_data", unique = true, nullable = false)
+    @Column(name = "temperature_data", nullable = false)
     private LocalDate data;
 
     @Column(name = "temperature_value", nullable = false)
