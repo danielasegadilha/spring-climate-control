@@ -20,7 +20,7 @@ public class Temperature {
     private Municipality municipality;
 
     @Column(name = "temperature_data", nullable = false)
-    private LocalDate data;
+    private LocalDate date;
 
     @Column(name = "temperature_value", nullable = false)
     private int value;
@@ -42,11 +42,11 @@ public class Temperature {
     }
 
     public LocalDate getData() {
-        return data;
+        return date;
     }
 
     public void setData(LocalDate data) {
-        this.data = data;
+        this.date = data;
     }
 
     public int getValue() {

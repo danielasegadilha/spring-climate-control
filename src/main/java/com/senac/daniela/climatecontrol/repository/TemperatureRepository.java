@@ -11,12 +11,12 @@ import java.util.Optional;
 
 @Repository
 public interface TemperatureRepository extends JpaRepository<Temperature, Long> {
-    @Query("SELECT t FROM Temperature t WHERE t.data = CURRENT_DATE")
+    @Query("SELECT t FROM Temperature t WHERE t.date = CURRENT_DATE")
     List<Temperature> getAllDailyTemperatures();
 
-    @Query("SELECT t FROM Temperature t WHERE t.data = CURRENT_DATE AND t.municipality.id = :id")
+    @Query("SELECT t FROM Temperature t WHERE t.date = CURRENT_DATE AND t.municipality.id = :id")
     Optional<Temperature> getTemperatureByMunicipality(@Param("id") int id);
 
-    @Query("SELECT AVG(t.value) FROM Temperature t WHERE t.municipality.id = :id AND FUNCTION('MONTH', t.data) = FUNCTION('MONTH', CURRENT_DATE) AND FUNCTION('YEAR', t.data) = FUNCTION('YEAR', CURRENT_DATE)")
+    @Query("SELECT AVG(t.value) FROM Temperature t WHERE t.municipality.id = :id AND FUNCTION('MONTH', t.date) = FUNCTION('MONTH', CURRENT_DATE) AND FUNCTION('YEAR', t.date) = FUNCTION('YEAR', CURRENT_DATE)")
     Optional<Double> getAverageTemperatureByMonth(@Param("id") int id);
 }
