@@ -9,7 +9,7 @@ import java.util.Set;
 
 @Entity
 @Table(name = "municipality")
-@JsonIgnoreProperties({"temperature"})
+@JsonIgnoreProperties({"weatherStation"})
 public class Municipality {
 
     @Id

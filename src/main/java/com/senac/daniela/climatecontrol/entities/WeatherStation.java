@@ -7,7 +7,7 @@ import java.util.Set;
 
 @Entity
 @Table(name = "weather_station")
-@JsonIgnoreProperties({"temperature"})
+@JsonIgnoreProperties({"temperatureRecord"})
 public class WeatherStation {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

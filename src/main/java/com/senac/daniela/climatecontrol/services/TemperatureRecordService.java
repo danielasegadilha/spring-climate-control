@@ -21,8 +21,8 @@ public class TemperatureRecordService {
         return temperatureRecordRepository.getAllDailyTemperatures();
     }
 
-    public TemperatureRecord getTemperatureByMunicipality(int id) {
-        return temperatureRecordRepository.getTemperatureByMunicipality(id).orElseThrow(()-> new MunicipalityNotFoundException("Municipality not found"));
+    public TemperatureRecord getTemperatureByWeatherStation(int id) {
+        return temperatureRecordRepository.getTemperatureByWeatherStation(id).orElseThrow(()-> new MunicipalityNotFoundException("Municipality not found"));
     }
 
     public Optional<Double> getAverageTemperatureByMonth(int id) {

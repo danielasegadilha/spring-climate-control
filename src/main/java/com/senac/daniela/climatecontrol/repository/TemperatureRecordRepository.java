@@ -14,10 +14,10 @@ public interface TemperatureRecordRepository extends JpaRepository<TemperatureRe
     @Query("SELECT t FROM Temperature t WHERE t.date = CURRENT_DATE")
     List<TemperatureRecord> getAllDailyTemperatures();
 
-    @Query("SELECT t FROM Temperature t WHERE t.date = CURRENT_DATE AND t.municipality.id = :id")
-    Optional<TemperatureRecord> getTemperatureByMunicipality(@Param("id") int id);
+    @Query("SELECT t FROM Temperature t WHERE t.date = CURRENT_DATE AND t.weatherStation.id = :id")
+    Optional<TemperatureRecord> getTemperatureByWeatherStation(@Param("id") int id);
 
     @Query("""
-        SELECT AVG(dailyAvg) FROM (SELECT AVG(t.value) AS dailyAvg FROM Temperature t WHERE t.municipality.id = :id AND FUNCTION('MONTH', t.date) = FUNCTION('MONTH', CURRENT_DATE) AND FUNCTION('YEAR', t.date) = FUNCTION('YEAR', CURRENT_DATE)GROUP BY FUNCTION('DAY', t.date)) AS dailyAverages""")
+        SELECT AVG(dailyAvg) FROM (SELECT AVG(t.value) AS dailyAvg FROM Temperature t WHERE t.weather_station.id = :id AND FUNCTION('MONTH', t.date) = FUNCTION('MONTH', CURRENT_DATE) AND FUNCTION('YEAR', t.date) = FUNCTION('YEAR', CURRENT_DATE)GROUP BY FUNCTION('DAY', t.date)) AS dailyAverages""")
     Optional<Double> getAverageTemperatureByMonth(@Param("id") int id);
 }

@@ -30,9 +30,9 @@ public class TemperatureRecordController {
     }
 
     @GetMapping("/search/{municipality_id}")
-    public ResponseEntity<TemperatureRecord> getTemperature(@PathVariable int municipality_id) {
+    public ResponseEntity<TemperatureRecord> getTemperature(@PathVariable int weatherStationId) {
         try {
-            TemperatureRecord temperatureRecord = temperatureRecordService.getTemperatureByMunicipality(municipality_id);
+            TemperatureRecord temperatureRecord = temperatureRecordService.getTemperatureByWeatherStation(weatherStationId);
             return new ResponseEntity<>(temperatureRecord, HttpStatus.OK);
         } catch (MunicipalityNotFoundException e) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -40,9 +40,9 @@ public class TemperatureRecordController {
     }
 
     @GetMapping("/search/average/{municipality_id}")
-    public ResponseEntity<Optional<Double>> getAverage(@PathVariable int municipality_id) {
+    public ResponseEntity<Optional<Double>> getAverage(@PathVariable int weatherStationId) {
         try {
-            Optional<Double> average = temperatureRecordService.getAverageTemperatureByMonth(municipality_id);
+            Optional<Double> average = temperatureRecordService.getAverageTemperatureByMonth(weatherStationId);
             return new ResponseEntity<>(average, HttpStatus.OK);
         } catch (MunicipalityNotFoundException e) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
