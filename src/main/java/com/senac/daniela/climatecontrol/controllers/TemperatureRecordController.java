@@ -1,8 +1,8 @@
 package com.senac.daniela.climatecontrol.controllers;
 
-import com.senac.daniela.climatecontrol.entities.Temperature;
+import com.senac.daniela.climatecontrol.entities.TemperatureRecord;
 import com.senac.daniela.climatecontrol.exceptions.MunicipalityNotFoundException;
-import com.senac.daniela.climatecontrol.services.TemperatureService;
+import com.senac.daniela.climatecontrol.services.TemperatureRecordService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,25 +15,25 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(value="/temperature")
-public class TemperatureController {
+public class TemperatureRecordController {
 
-    private final TemperatureService temperatureService;
+    private final TemperatureRecordService temperatureRecordService;
 
-    public TemperatureController(TemperatureService temperatureService) {
-        this.temperatureService = temperatureService;
+    public TemperatureRecordController(TemperatureRecordService temperatureRecordService) {
+        this.temperatureRecordService = temperatureRecordService;
     }
 
     @GetMapping
-    public ResponseEntity<List<Temperature>> getAllDailyTemperatures() {
-        List<Temperature> temperature = temperatureService.getAllDailyTemperatures();
-        return ResponseEntity.ok(temperature);
+    public ResponseEntity<List<TemperatureRecord>> getAllDailyTemperatures() {
+        List<TemperatureRecord> temperatureRecord = temperatureRecordService.getAllDailyTemperatures();
+        return ResponseEntity.ok(temperatureRecord);
     }
 
     @GetMapping("/search/{municipality_id}")
-    public ResponseEntity<Temperature> getTemperature(@PathVariable int municipality_id) {
+    public ResponseEntity<TemperatureRecord> getTemperature(@PathVariable int municipality_id) {
         try {
-            Temperature temperature = temperatureService.getTemperatureByMunicipality(municipality_id);
-            return new ResponseEntity<>(temperature, HttpStatus.OK);
+            TemperatureRecord temperatureRecord = temperatureRecordService.getTemperatureByMunicipality(municipality_id);
+            return new ResponseEntity<>(temperatureRecord, HttpStatus.OK);
         } catch (MunicipalityNotFoundException e) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
@@ -42,7 +42,7 @@ public class TemperatureController {
     @GetMapping("/search/average/{municipality_id}")
     public ResponseEntity<Optional<Double>> getAverage(@PathVariable int municipality_id) {
         try {
-            Optional<Double> average = temperatureService.getAverageTemperatureByMonth(municipality_id);
+            Optional<Double> average = temperatureRecordService.getAverageTemperatureByMonth(municipality_id);
             return new ResponseEntity<>(average, HttpStatus.OK);
         } catch (MunicipalityNotFoundException e) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);

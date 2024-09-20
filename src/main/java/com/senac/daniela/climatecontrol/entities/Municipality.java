@@ -18,7 +18,7 @@ public class Municipality {
     private int id;
 
     @OneToMany(mappedBy= "municipality")
-    private Set<Temperature> temperature;
+    private Set<WeatherStation> weatherStation;
 
     @Column(name = "municipality_name",nullable = false)
     @Enumerated(EnumType.STRING)
@@ -27,6 +27,9 @@ public class Municipality {
     @Column(name = "municipality_region", nullable = false)
     @Enumerated(EnumType.STRING)
     private Region region;
+
+    @Column(name = "municipality_status", nullable = false)
+    private int status;
 
     @Column(name = "municipality_area", nullable = false)
     private int area;
@@ -39,12 +42,12 @@ public class Municipality {
         this.id = id;
     }
 
-    public Set<Temperature> getTemperature() {
-        return temperature;
+    public Set<WeatherStation> getWeatherStation() {
+        return weatherStation;
     }
 
-    public void setTemperature(Set<Temperature> temperature) {
-        this.temperature = temperature;
+    public void setWeatherStation(Set<WeatherStation> weatherStation) {
+        this.weatherStation = weatherStation;
     }
 
     public MunicipalName getName() {
@@ -61,6 +64,14 @@ public class Municipality {
 
     public void setRegion(Region region) {
         this.region = region;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
     }
 
     public int getArea() {

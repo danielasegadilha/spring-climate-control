@@ -5,10 +5,8 @@ import jakarta.persistence.*;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "temperature", uniqueConstraints = {
-        @UniqueConstraint(columnNames = {"municipio_id", "date"})
-})
-public class Temperature {
+@Table(name = "temperature")
+public class TemperatureRecord {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -16,8 +14,8 @@ public class Temperature {
     private Long id;
 
     @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "municipality_id", referencedColumnName = "municipality_id")
-    private Municipality municipality;
+    @JoinColumn(name = "weather_station_id", referencedColumnName = "weather_station_id")
+    private WeatherStation weatherStation;
 
     @Column(name = "temperature_data", nullable = false)
     private LocalDate date;
@@ -33,12 +31,20 @@ public class Temperature {
         this.id = id;
     }
 
-    public Municipality getMunicipality() {
-        return municipality;
+    public WeatherStation getWeatherStation() {
+        return weatherStation;
     }
 
-    public void setMunicipality(Municipality municipality) {
-        this.municipality = municipality;
+    public void setWeatherStation(WeatherStation weatherStation) {
+        this.weatherStation = weatherStation;
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
     }
 
     public LocalDate getData() {
