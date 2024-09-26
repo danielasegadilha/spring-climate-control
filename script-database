@@ -1,0 +1,202 @@
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('ANGRA_DOS_REIS', 'REGIAO_DOS_LAGOS', 1, 812);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('APERIBE', 'REGIAO_NORTE_FLUMINENSE', 1, 121);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('ARARUAMA', 'REGIAO_DOS_LAGOS', 1, 374);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('AREAL', 'REGIAO_SERRANA', 1, 143);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('ARMACAO_DOS_BUZIOS', 'REGIAO_DOS_LAGOS', 1, 105);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('ARRAIAL_DO_CABO', 'REGIAO_DOS_LAGOS', 1, 110);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('BARRA_DO_PIRAI', 'REGIAO_CENTRO_SUL_FLUMINENSE', 1, 236);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('BARRA_MANSA', 'REGIAO_CENTRO_SUL_FLUMINENSE', 1, 280);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('BELFORD_ROXO', 'REGIAO_METROPOLITANA', 1, 202);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('BOM_JARDIM', 'REGIAO_NORTE_FLUMINENSE', 1, 587);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('BOM_JESUS_DO_ITABAPOANA', 'REGIAO_NORTE_FLUMINENSE', 1, 220);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('CABO_FRIO', 'REGIAO_DOS_LAGOS', 1, 402);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('CACHOEIRAS_DE_MACACU', 'REGIAO_METROPOLITANA', 1, 935);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('CAMBUCI', 'REGIAO_METROPOLITANA', 1, 128);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('CAMPOS_DOS_GOYTACAZES', 'REGIAO_NORTE_FLUMINENSE', 1, 4826);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('CANTAGALO', 'REGIAO_NORTE_FLUMINENSE', 1, 578);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('CARAPEBUS', 'REGIAO_DOS_LAGOS', 1, 309);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('COMENDADOR_LEVY_GASPARIAN', 'REGIAO_METROPOLITANA', 1, 122);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('CONDEUBA', 'REGIAO_METROPOLITANA', 1, 97);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('CONSERVATORIA', 'REGIAO_METROPOLITANA', 1, 55);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('COSTA_DO_SOL', 'REGIAO_DOS_LAGOS', 1, 415);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('DUAS_BARRAS', 'REGIAO_SERRANA', 1, 420);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('ENGENHEIRO_PAULO_DE_FRONTIN', 'REGIAO_SERRANA', 1, 211);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('GUAPIMIRIM', 'REGIAO_METROPOLITANA', 1, 368);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('IGUABA_GRANDE', 'REGIAO_DOS_LAGOS', 1, 121);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('ITABORAI', 'REGIAO_METROPOLITANA', 1, 139);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('ITAGUAI', 'REGIAO_METROPOLITANA', 1, 293);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('ITALVA', 'REGIAO_NORTE_FLUMINENSE', 1, 194);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('ITAOCARA', 'REGIAO_NORTE_FLUMINENSE', 1, 483);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('ITAPERUNA', 'REGIAO_NORTE_FLUMINENSE', 1, 827);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('LAJE_DO_MURIAE', 'REGIAO_NORTE_FLUMINENSE', 1, 276);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('MACAE', 'REGIAO_METROPOLITANA', 1, 232);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('MACUCO', 'REGIAO_NORTE_FLUMINENSE', 1, 73);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('MAGE', 'REGIAO_METROPOLITANA', 1, 115);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('MANGARATIBA', 'REGIAO_DOS_LAGOS', 1, 102);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('MARICA', 'REGIAO_METROPOLITANA', 1, 110);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('MENDES', 'REGIAO_SERRANA', 1, 290);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('MIRACEMA', 'REGIAO_NORTE_FLUMINENSE', 1, 514);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('NATIVIDADE', 'REGIAO_NORTE_FLUMINENSE', 1, 519);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('NILOPOLIS', 'REGIAO_METROPOLITANA', 1, 60);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('NITEROI', 'REGIAO_METROPOLITANA', 1, 52);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('NOVA_FRIBURGO', 'REGIAO_SERRANA', 1, 1193);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('NOVA_IGUACU', 'REGIAO_METROPOLITANA', 1, 455);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('PARACAMBI', 'REGIAO_SERRANA', 1, 344);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('PARAIBA_DO_SUL', 'REGIAO_NORTE_FLUMINENSE', 1, 233);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('PARATY', 'REGIAO_DOS_LAGOS', 1, 969);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('PATY_DO_ALFERES', 'REGIAO_METROPOLITANA', 1, 199);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('PETROPOLIS', 'REGIAO_SERRANA', 1, 1955);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('PINHEIRAL', 'REGIAO_METROPOLITANA', 1, 196);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('PIRAI', 'REGIAO_CENTRO_SUL_FLUMINENSE', 1, 202);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('PORCIUNCULA', 'REGIAO_NORTE_FLUMINENSE', 1, 370);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('QUATIS', 'REGIAO_CENTRO_SUL_FLUMINENSE', 1, 183);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('QUEIMADOS', 'REGIAO_BAIXADA_FLUMINENSE', 1, 233);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('RESENDE', 'REGIAO_SERRANA', 1, 1290);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('RIO_BONITO', 'REGIAO_METROPOLITANA', 1, 385);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('RIO_CLARO', 'REGIAO_CENTRO_SUL_FLUMINENSE', 1, 121);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('RIO_DAS_FLORES', 'REGIAO_SERRANA', 1, 138);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('RIO_DAS_OSTRAS', 'REGIAO_DOS_LAGOS', 1, 185);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('RIO_DE_JANEIRO', 'REGIAO_METROPOLITANA', 1, 1182);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('SANTA_MARIA_MADALENA', 'REGIAO_SERRANA', 1, 552);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('SANTO_ANTONIO_DE_PADUA', 'REGIAO_SERRANA', 1, 1093);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('SAO_FIDELIS', 'REGIAO_NORTE_FLUMINENSE', 1, 195);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('SAO_FRANCISCO_DE_ITABAPOANA', 'REGIAO_NORTE_FLUMINENSE', 1, 552);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('SAO_GONCALO', 'REGIAO_METROPOLITANA', 1, 533);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('SAO_JOAO_DA_BARRA', 'REGIAO_NORTE_FLUMINENSE', 1, 1364);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('SAO_JOAO_DE_MERITI', 'REGIAO_METROPOLITANA', 1, 117);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('SAO_JOSE_DE_UBA', 'REGIAO_NORTE_FLUMINENSE', 1, 219);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('SAO_JOSE_DO_VALE_DO_RIO_PRETO', 'REGIAO_SERRANA', 1, 136);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('SAO_PEDRO_DA_ALDEIA', 'REGIAO_DOS_LAGOS', 1, 187);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('SAO_SEBASTIAO_DO_ALTO', 'REGIAO_SERRANA', 1, 306);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('SAPUCAIA', 'REGIAO_SERRANA', 1, 158);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('SAQUAREMA', 'REGIAO_DOS_LAGOS', 1, 161);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('SEROPEDICA', 'REGIAO_METROPOLITANA', 1, 259);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('SILVA_JARDIM', 'REGIAO_DOS_LAGOS', 1, 651);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('SUMIDOURO', 'REGIAO_SERRANA', 1, 172);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('TANGUA', 'REGIAO_MEDIO_PARAAIBA', 1, 145);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('TERESOPOLIS', 'REGIAO_SERRANA', 1, 774);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('TRAJANO_DE_MORAES', 'REGIAO_SERRANA', 1, 278);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('TRES_RIOS', 'REGIAO_SERRANA', 1, 226);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('VALENCA', 'REGIAO_MEDIO_PARAAIBA', 1, 786);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('VARRE_SAI', 'REGIAO_NORTE_FLUMINENSE', 1, 198);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('VASSOURAS', 'REGIAO_SERRANA', 1, 530);
+INSERT INTO municipality (municipality_name, municipality_region, municipality_status, municipality_area) VALUES ('VOLTA_REDONDA', 'REGIAO_CENTRO_SUL_FLUMINENSE', 1, 445);
+
+
+SET @today = CURDATE();
+
+-- Insere temperaturas para um município específico
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value)
+VALUES
+    (1, @today, 25),  -- Exemplo de estação com ID 1, temperatura 25°C
+    (1, @today, 27),  -- Outra leitura na mesma estação para hoje
+    (1, @today, 26);  -- Mais uma leitura na mesma estação para hoje
+
+
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'ANGRA_DOS_REIS'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'APERIBE'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'ARARUAMA'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'AREAL'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'ARMACAO_DOS_BUZIOS'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'ARRAIAL_DO_CABO'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'BARRA_DO_PIRAI'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'BARRA_MANSA'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'BELFORD_ROXO'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'BOM_JARDIM'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'BOM_JESUS_DO_ITABAPOANA'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'CABO_FRIO'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'CACHOEIRAS_DE_MACACU'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'CAMBUCI'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'CAMPOS_DOS_GOYTACAZES'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'CANTAGALO'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'CARAPEBUS'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'COMENDADOR_LEVY_GASPARIAN'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'CONDEUBA'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'CONSERVATORIA'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'COSTA_DO_SOL'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'DUAS_BARRAS'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'ENGENHEIRO_PAULO_DE_FRONTIN'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'GUAPIMIRIM'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'IGUABA_GRANDE'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'ITABORAI'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'ITAGUAI'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'ITALVA'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'ITAOCARA'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'ITAPERUNA'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'LAJE_DO_MURIAE'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'MACAE'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'MACUCO'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'MAGE'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'MANGARATIBA'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'MARICA'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'MENDES'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'MIRACEMA'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'NATIVIDADE'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'NILOPOLIS'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'NITEROI'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'NOVA_FRIBURGO'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'NOVA_IGUACU'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'PARACAMBI'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'PARAIBA_DO_SUL'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'PARATY'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'PATY_DO_ALFERES'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'PETROPOLIS'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'PINHEIRAL'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'PIRAI'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'PORCIUNCULA'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'QUATIS'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'QUEIMADOS'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'RESENDE'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'RIO_BONITO'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'RIO_CLARO'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'RIO_DAS_FLORES'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'RIO_DAS_OSTRAS'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'RIO_DE_JANEIRO'));
+INSERT INTO weather_station (weather_station_status, municipality_id) VALUES (1, (SELECT municipality_id FROM municipality WHERE municipality_name = 'SANTA_MARIA_MADALENA'));
+
+-- Temperaturas para a estação em Angra dos Reis
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (1, '2024-09-01', 28);
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (1, '2024-09-01', 30);
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (1, '2024-09-02', 29);
+
+-- Temperaturas para a estação em Aperibé
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (2, '2024-09-01', 27);
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (2, '2024-09-02', 26);
+
+-- Temperaturas para a estação em Araruama
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (3, '2024-09-01', 25);
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (3, '2024-09-01', 24);
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (3, '2024-09-02', 26);
+
+-- Temperaturas para a estação em Areal
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (4, '2024-09-01', 29);
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (4, '2024-09-01', 31);
+
+-- Temperaturas para a estação em Armação dos Búzios
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (5, '2024-09-01', 30);
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (5, '2024-09-02', 29);
+
+-- Temperaturas para a estação em Arraial do Cabo
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (6, '2024-09-01', 28);
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (6, '2024-09-02', 27);
+
+-- Temperaturas para a estação em Barra do Piraí
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (7, '2024-09-01', 26);
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (7, '2024-09-01', 27);
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (7, '2024-09-02', 25);
+
+-- Temperaturas para a estação em Barra Mansa
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (8, '2024-09-01', 29);
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (8, '2024-09-02', 28);
+
+-- Temperaturas para a estação em Belford Roxo
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (9, '2024-09-01', 30);
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (9, '2024-09-01', 32);
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (9, '2024-09-02', 31);
+
+-- Continue com o restante das estações...
+
+-- Exemplo para mais algumas estações
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (10, '2024-09-01', 28);
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (11, '2024-09-01', 29);
+INSERT INTO temperature (weather_station_id, temperature_data, temperature_value) VALUES (12, '2024-09-01', 27);
