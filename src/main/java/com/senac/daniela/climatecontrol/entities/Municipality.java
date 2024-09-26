@@ -20,7 +20,7 @@ public class Municipality {
     @OneToMany(mappedBy= "municipality")
     private Set<WeatherStation> weatherStation;
 
-    @Column(name = "municipality_name",nullable = false)
+    @Column(name = "municipality_name",nullable = false, unique = true)
     @Enumerated(EnumType.STRING)
     private MunicipalName name;
 

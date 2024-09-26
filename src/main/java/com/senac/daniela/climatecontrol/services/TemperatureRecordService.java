@@ -5,6 +5,7 @@ import com.senac.daniela.climatecontrol.exceptions.MunicipalityNotFoundException
 import com.senac.daniela.climatecontrol.repository.TemperatureRecordRepository;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
@@ -17,15 +18,15 @@ public class TemperatureRecordService {
         this.temperatureRecordRepository = temperatureRecordRepository;
     }
 
-    public List<TemperatureRecord> getAllDailyTemperatures() {
-        return temperatureRecordRepository.getAllDailyTemperatures();
+    public List<TemperatureRecord> getDailyAverageTemperatureByMunicipality(int id, LocalDate date) {
+        return temperatureRecordRepository.getAllDailyTemperaturesByMunicipalityId(id, date);
     }
 
-    public TemperatureRecord getTemperatureByWeatherStation(int id) {
-        return temperatureRecordRepository.getTemperatureByWeatherStation(id).orElseThrow(()-> new MunicipalityNotFoundException("Municipality not found"));
+    public Optional<Double> getAverageTemperatureByMunicipality(int id) {
+        return temperatureRecordRepository.getDailyAverageTemperatureByMunicipalityId(id);
     }
 
-    public Optional<Double> getAverageTemperatureByMonth(int id) {
-        return temperatureRecordRepository.getAverageTemperatureByMonth(id).orElseThrow(()-> new MunicipalityNotFoundException("Municipality not found")).describeConstable();
+    public Optional<Double> getAverageTemperatureByMonth(int id, LocalDate date) {
+        return temperatureRecordRepository.getAverageTemperatureByMonth(id, date).orElseThrow(()-> new MunicipalityNotFoundException("Municipality not found")).describeConstable();
     };
 }

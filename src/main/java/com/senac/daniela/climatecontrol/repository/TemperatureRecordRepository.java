@@ -6,18 +6,29 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
 @Repository
 public interface TemperatureRecordRepository extends JpaRepository<TemperatureRecord, Long> {
-    @Query("SELECT t FROM Temperature t WHERE t.date = CURRENT_DATE")
-    List<TemperatureRecord> getAllDailyTemperatures();
+    @Query("SELECT AVG(t.value) FROM TemperatureRecord t " +
+            "JOIN t.weatherStation ws " +
+            "JOIN ws.municipality m " +
+            "WHERE m.id = :municipalityId AND t.date = CURRENT_DATE")
+    Optional<Double> getDailyAverageTemperatureByMunicipalityId(@Param("municipalityId") int municipalityId);
 
-    @Query("SELECT t FROM Temperature t WHERE t.date = CURRENT_DATE AND t.weatherStation.id = :id")
-    Optional<TemperatureRecord> getTemperatureByWeatherStation(@Param("id") int id);
+    @Query("SELECT t FROM TemperatureRecord t " +
+            "JOIN t.weatherStation ws " +
+            "JOIN ws.municipality m " +
+            "WHERE m.id = :municipalityId AND t.date = :date")
+    List<TemperatureRecord> getAllDailyTemperaturesByMunicipalityId(@Param("municipalityId") int municipalityId, @Param("date") LocalDate date);
 
-    @Query("""
-        SELECT AVG(dailyAvg) FROM (SELECT AVG(t.value) AS dailyAvg FROM Temperature t WHERE t.weather_station.id = :id AND FUNCTION('MONTH', t.date) = FUNCTION('MONTH', CURRENT_DATE) AND FUNCTION('YEAR', t.date) = FUNCTION('YEAR', CURRENT_DATE)GROUP BY FUNCTION('DAY', t.date)) AS dailyAverages""")
-    Optional<Double> getAverageTemperatureByMonth(@Param("id") int id);
+    @Query("SELECT AVG(t.value) FROM TemperatureRecord t " +
+            "JOIN t.weatherStation ws " +
+            "JOIN ws.municipality m " +
+            "WHERE m.id = :municipalityId " +
+            "AND FUNCTION('MONTH', t.date) = FUNCTION('MONTH', :date) " +
+            "AND FUNCTION('YEAR', t.date) = FUNCTION('YEAR', :date)")
+    Optional<Double> getAverageTemperatureByMonth(@Param("municipalityId") int municipalityId, @Param("date") LocalDate date);
 }

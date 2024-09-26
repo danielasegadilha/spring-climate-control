@@ -47,14 +47,6 @@ public class TemperatureRecord {
         this.date = date;
     }
 
-    public LocalDate getData() {
-        return date;
-    }
-
-    public void setData(LocalDate data) {
-        this.date = data;
-    }
-
     public int getValue() {
         return value;
     }
